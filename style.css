@@ -1,0 +1,256 @@
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+main{
+    background-color:lightslategrey;
+    width: 100vw;
+    min-width: 846px;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    border: 20px solid rgb(0, 0, 0);
+    padding: 2rem 3.5rem;
+    
+}
+
+section{
+    margin:0 auto;
+}
+/*class */
+
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-size: 6rem;
+    font-style:oblique;
+}
+
+.main-frutas {
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(184, 244, 247);
+}
+
+.fruta{
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(13, 2, 63);
+}
+
+
+.main-carnes {
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(229, 186, 211);
+}
+
+.carne{
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(63, 2, 2);
+}
+
+
+.main-verduras {
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(188, 226, 193);
+}
+
+.verdura{
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(2, 63, 2);
+}
+
+
+.fruta{
+    color: rgb(0, 68, 255);
+    font-size: 5rem;
+    font-style: inherit;
+}
+
+.main-frutas__item{
+    display: inline-block;
+}
+.main-verduras__item{
+    display: inline-block;
+}
+
+.main-carnes__item{
+    display: inline-block;
+}
+
+.main-frutas__item{
+    color: rgb(100, 68, 255);
+    font-size: 4rem;
+    font-style:initial;
+}
+
+
+
+.main-frutas__item a {
+    color: rgb(17, 17, 17);
+    background-color: #13a4a4;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+}
+
+.main-frutas__item a:hover {
+    color:rgb(0, 255, 85);
+}
+
+.main-frutas__item a:active {
+    color:rgb(255, 0, 0);
+}
+
+.main-frutas__item a:focus {
+    background: rgb(226, 95, 43);
+    color:yellow;
+}
+
+.main-frutas__item a::after {
+    content:" | "
+    
+}
+
+.main-frutas__item a::before {
+    content:" | "
+    
+}
+
+
+
+.verdura{
+    color: rgb(0, 255, 34);
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.main-verduras__item{
+    color: rgb(100, 255, 34);
+    font-size: 4rem;
+    font-style: initial;
+}
+
+
+
+.main-verduras__item a {
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    background-color:yellowgreen;
+}
+
+.main-verduras__item a:hover {
+    color:rgb(163, 15, 15);
+}
+
+.main-verduras__item a:active {
+    color:rgb(255, 255, 255);
+}
+
+.main-verduras__item a:focus {
+    background: blueviolet;
+    color:yellow;
+}
+
+.main-verduras__item a::after {
+    content:" | "
+    
+}
+
+.main-verduras__item a::before {
+    content:" | "
+    
+}
+
+
+
+
+
+
+.carne{
+    color: rgb(255, 0, 0);
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.main-carnes__item{
+    color: rgb(255, 100, 100);
+    font-size: 4rem;
+    font-style: initial;
+}
+
+.main-carnes__item a {
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.2rem
+    ;
+    text-decoration: none;
+    background-color:tomato;
+}
+
+.main-carnes__item a:hover {
+    color:blue;
+}
+
+.main-carnes__item a:active {
+    color:red;
+}
+
+.main-carnes__item a:focus {
+    background: rgb(43, 226, 58);
+    color:yellow;
+}
+
+.main-carnes__item a::after {
+    content:" | "
+    
+}
+
+.main-carnes__item a::before {
+    content:" | "
+    
+}
+
+/*id*/
+#texto {
+    color: rgb(0, 0, 0);
+    font-size: 2.4rem;
+    font-style:oblique;
+}
+
+.parent { 
+    border: 2px black dotted;
+    display: inline-block;
+        }
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100 px;
+    height: 100px;
+}
+
+#dos {
+    background-color: green;
+}
